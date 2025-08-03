@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		814623872E3F6105007B6B13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 814623702E3F6103007B6B13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 814623772E3F6104007B6B13;
+			remoteInfo = "カルテ入力";
+		};
+		814623912E3F6105007B6B13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 814623702E3F6103007B6B13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 814623772E3F6104007B6B13;
+			remoteInfo = "カルテ入力";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		814623782E3F6104007B6B13 /* カルテ入力.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "カルテ入力.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		814623862E3F6105007B6B13 /* カルテ入力Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "カルテ入力Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		814623902E3F6105007B6B13 /* カルテ入力UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "カルテ入力UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8146237A2E3F6104007B6B13 /* カルテ入力 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "カルテ入力";
+			sourceTree = "<group>";
+		};
+		814623892E3F6105007B6B13 /* カルテ入力Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "カルテ入力Tests";
+			sourceTree = "<group>";
+		};
+		814623932E3F6105007B6B13 /* カルテ入力UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "カルテ入力UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		814623752E3F6104007B6B13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		814623832E3F6105007B6B13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8146238D2E3F6105007B6B13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8146236F2E3F6103007B6B13 = {
+			isa = PBXGroup;
+			children = (
+				8146237A2E3F6104007B6B13 /* カルテ入力 */,
+				814623892E3F6105007B6B13 /* カルテ入力Tests */,
+				814623932E3F6105007B6B13 /* カルテ入力UITests */,
+				814623792E3F6104007B6B13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		814623792E3F6104007B6B13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				814623782E3F6104007B6B13 /* カルテ入力.app */,
+				814623862E3F6105007B6B13 /* カルテ入力Tests.xctest */,
+				814623902E3F6105007B6B13 /* カルテ入力UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		814623772E3F6104007B6B13 /* カルテ入力 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8146239A2E3F6105007B6B13 /* Build configuration list for PBXNativeTarget "カルテ入力" */;
+			buildPhases = (
+				814623742E3F6104007B6B13 /* Sources */,
+				814623752E3F6104007B6B13 /* Frameworks */,
+				814623762E3F6104007B6B13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8146237A2E3F6104007B6B13 /* カルテ入力 */,
+			);
+			name = "カルテ入力";
+			packageProductDependencies = (
+			);
+			productName = "カルテ入力";
+			productReference = 814623782E3F6104007B6B13 /* カルテ入力.app */;
+			productType = "com.apple.product-type.application";
+		};
+		814623852E3F6105007B6B13 /* カルテ入力Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8146239D2E3F6105007B6B13 /* Build configuration list for PBXNativeTarget "カルテ入力Tests" */;
+			buildPhases = (
+				814623822E3F6105007B6B13 /* Sources */,
+				814623832E3F6105007B6B13 /* Frameworks */,
+				814623842E3F6105007B6B13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				814623882E3F6105007B6B13 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				814623892E3F6105007B6B13 /* カルテ入力Tests */,
+			);
+			name = "カルテ入力Tests";
+			packageProductDependencies = (
+			);
+			productName = "カルテ入力Tests";
+			productReference = 814623862E3F6105007B6B13 /* カルテ入力Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8146238F2E3F6105007B6B13 /* カルテ入力UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 814623A02E3F6105007B6B13 /* Build configuration list for PBXNativeTarget "カルテ入力UITests" */;
+			buildPhases = (
+				8146238C2E3F6105007B6B13 /* Sources */,
+				8146238D2E3F6105007B6B13 /* Frameworks */,
+				8146238E2E3F6105007B6B13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				814623922E3F6105007B6B13 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				814623932E3F6105007B6B13 /* カルテ入力UITests */,
+			);
+			name = "カルテ入力UITests";
+			packageProductDependencies = (
+			);
+			productName = "カルテ入力UITests";
+			productReference = 814623902E3F6105007B6B13 /* カルテ入力UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		814623702E3F6103007B6B13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					814623772E3F6104007B6B13 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					814623852E3F6105007B6B13 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 814623772E3F6104007B6B13;
+					};
+					8146238F2E3F6105007B6B13 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 814623772E3F6104007B6B13;
+					};
+				};
+			};
+			buildConfigurationList = 814623732E3F6103007B6B13 /* Build configuration list for PBXProject "カルテ入力" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8146236F2E3F6103007B6B13;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 814623792E3F6104007B6B13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				814623772E3F6104007B6B13 /* カルテ入力 */,
+				814623852E3F6105007B6B13 /* カルテ入力Tests */,
+				8146238F2E3F6105007B6B13 /* カルテ入力UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		814623762E3F6104007B6B13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		814623842E3F6105007B6B13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8146238E2E3F6105007B6B13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		814623742E3F6104007B6B13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		814623822E3F6105007B6B13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8146238C2E3F6105007B6B13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		814623882E3F6105007B6B13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 814623772E3F6104007B6B13 /* カルテ入力 */;
+			targetProxy = 814623872E3F6105007B6B13 /* PBXContainerItemProxy */;
+		};
+		814623922E3F6105007B6B13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 814623772E3F6104007B6B13 /* カルテ入力 */;
+			targetProxy = 814623912E3F6105007B6B13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		814623982E3F6105007B6B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = Z77VFCB4PW;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		814623992E3F6105007B6B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Z77VFCB4PW;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		8146239B2E3F6105007B6B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "カルテ入力/_____.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z77VFCB4PW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yoyasu-clinic.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8146239C2E3F6105007B6B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "カルテ入力/_____.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z77VFCB4PW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yoyasu-clinic.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8146239E2E3F6105007B6B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z77VFCB4PW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yoyasu-clinic.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/カルテ入力.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/カルテ入力";
+			};
+			name = Debug;
+		};
+		8146239F2E3F6105007B6B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z77VFCB4PW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yoyasu-clinic.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/カルテ入力.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/カルテ入力";
+			};
+			name = Release;
+		};
+		814623A12E3F6105007B6B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z77VFCB4PW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yoyasu-clinic.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "カルテ入力";
+			};
+			name = Debug;
+		};
+		814623A22E3F6105007B6B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z77VFCB4PW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yoyasu-clinic.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "カルテ入力";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		814623732E3F6103007B6B13 /* Build configuration list for PBXProject "カルテ入力" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				814623982E3F6105007B6B13 /* Debug */,
+				814623992E3F6105007B6B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8146239A2E3F6105007B6B13 /* Build configuration list for PBXNativeTarget "カルテ入力" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8146239B2E3F6105007B6B13 /* Debug */,
+				8146239C2E3F6105007B6B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8146239D2E3F6105007B6B13 /* Build configuration list for PBXNativeTarget "カルテ入力Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8146239E2E3F6105007B6B13 /* Debug */,
+				8146239F2E3F6105007B6B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		814623A02E3F6105007B6B13 /* Build configuration list for PBXNativeTarget "カルテ入力UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				814623A12E3F6105007B6B13 /* Debug */,
+				814623A22E3F6105007B6B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 814623702E3F6103007B6B13 /* Project object */;
+}
